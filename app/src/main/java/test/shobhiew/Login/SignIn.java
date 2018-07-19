@@ -88,7 +88,7 @@ public class SignIn extends Fragment {
          *Inflate tab_layout and setup Views.
          */
         x =  inflater.inflate(R.layout.activity_sign_in,null);
-        FacebookSdk.sdkInitialize(getActivity().getApplicationContext());
+        FacebookSdk.sdkInitialize(getApplicationContext());
         AppEventsLogger.activateApp(getActivity());
 
 
@@ -174,15 +174,7 @@ public class SignIn extends Fragment {
                 .build();
 
         mGoogleSignInClient = GoogleSignIn.getClient(getActivity(),gso);
-       /* mGoogleApiClient = new GoogleApiClient.Builder(getActivity().getApplicationContext())
-                .enableAutoManage(getActivity(), new GoogleApiClient.OnConnectionFailedListener() {
-                    @Override
-                    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
-                        Toast.makeText(getActivity(),"You Got an Error",Toast.LENGTH_LONG).show();
-                    }
-                })
-                .addApi(Auth.GOOGLE_SIGN_IN_API,gso)
-                .build();*/
+
         btn_login = (Button) x.findViewById(R.id.btn_login);
         btn_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -226,6 +218,7 @@ public class SignIn extends Fragment {
                 // ...
             }
         }
+        callbackManager.onActivityResult(requestCode, resultCode, data);
     }
     private void handleFacebookAccessToken(AccessToken token){
         Log.d("","handleFacebookAccessTokem"+token);
@@ -236,14 +229,13 @@ public class SignIn extends Fragment {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
-
                                 Log.d("", "signWithCredential:onComplete:" + task.isSuccessful());
-                                String user_id = mAuth.getCurrentUser().getUid();
+                             /*   String user_id = mAuth.getCurrentUser().getUid();
                                 String phone = mAuth.getCurrentUser().getPhoneNumber();
                                 String email = mAuth.getCurrentUser().getEmail();
                                 DatabaseReference current_user = mDatabase.child(user_id);
                                 current_user.child("Phone_User").setValue(phone);
-                                current_user.child("Email_User").setValue(email);
+                                current_user.child("Email_User").setValue(email);*/
                                 mProgress.dismiss();
                                 Intent intent = new Intent(getActivity(), MainActivity.class);
                                 startActivity(intent);
