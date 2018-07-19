@@ -53,7 +53,7 @@
             android:name=".PostHiew.AddOther"
             android:theme="@android:style/Theme.Holo.Dialog" />
         <activity android:name=".PostHiew.SearchBrand" />
-        <activity android:name=".PostHiew.Location"></activity>
+        <activity android:name=".PostHiew.Location" />
     </application>
 
 </manifest>

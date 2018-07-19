@@ -14,8 +14,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.List;
+
 import test.shobhiew.LocaleHelper;
 import test.shobhiew.MainActivity;
+import test.shobhiew.PostDetail;
+import test.shobhiew.PostRecycleAdapter;
 import test.shobhiew.R;
 
 public class fragme_home extends Fragment {
@@ -23,6 +27,12 @@ public class fragme_home extends Fragment {
     TextView Acc_Text,Candy_Text,Supple_Text;
     private SharedPreferences mSharedPreferences;
     private String Languages;
+
+    RecyclerView mRecyclerView;
+    RecyclerView.LayoutManager mLayoutManager;
+    PostRecycleAdapter adapter;
+    List<PostDetail> postDetail;
+
 
     @Nullable
     @Override
@@ -33,6 +43,12 @@ public class fragme_home extends Fragment {
         Candy_Text = (TextView) x.findViewById(R.id.candy_text);
         Supple_Text = (TextView) x.findViewById(R.id.supple_food_text);
 
+        mRecyclerView = (RecyclerView) x.findViewById(R.id.recycle_postHiew);
+        mRecyclerView.setHasFixedSize(true);
+        mLayoutManager = new LinearLayoutManager(getContext());
+        mRecyclerView.setLayoutManager(mLayoutManager);
+        adapter = new PostRecycleAdapter(postDetail);
+        mRecyclerView.setAdapter(adapter);
 
         mSharedPreferences = PreferenceManager.getDefaultSharedPreferences(getActivity());
         Languages = mSharedPreferences.getString(getString(R.string.setting_languages), "Thai");
@@ -45,5 +61,6 @@ public class fragme_home extends Fragment {
            Supple_Text.setTextSize(10);
         }
       return x;
+
     }
 }
