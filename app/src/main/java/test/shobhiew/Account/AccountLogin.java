@@ -19,6 +19,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.facebook.AccessToken;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.login.LoginManager;
@@ -73,6 +74,7 @@ public class AccountLogin extends Fragment {
                 dialog.setPositiveButton("ใช่", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         mAuth.signOut();
+                        AccessToken.setCurrentAccessToken(null);
                         LoginManager.getInstance().logOut();
                         Intent mIntent = new Intent(getActivity(),MainActivity.class);
                         getActivity().finish();

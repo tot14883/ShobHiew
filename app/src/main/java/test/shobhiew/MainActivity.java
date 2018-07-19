@@ -19,7 +19,6 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import test.shobhiew.Account.AccountLogin;
 import test.shobhiew.Account.fragment_account;
-import test.shobhiew.Deposit.fragmentDeposit;
 import test.shobhiew.Home.fragme_home;
 import test.shobhiew.favorite.fragment_favorite;
 import test.shobhiew.chat.fragment_chat;
@@ -86,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_deposit:
                     FragmentTransaction fragmentTransaction3 = mFragmentManager.beginTransaction();
                     fragmentTransaction3.replace(R.id.fragment_container,new
-                            fragmentDeposit()).commit();
+                            fragment_chat()).commit();
                     return true;
                 case R.id.navigation_favorite:
                     FragmentTransaction fragmentTransaction1 = mFragmentManager.beginTransaction();

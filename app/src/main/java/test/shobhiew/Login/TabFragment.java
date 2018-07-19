@@ -91,7 +91,7 @@ public class TabFragment extends Fragment {
                 case 0 :
                     return "SignIn";
                 case 1 :
-                    return "SingUp";
+                    return "SignUp";
 
             }
             return null;
