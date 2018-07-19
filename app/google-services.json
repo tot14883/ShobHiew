@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "818685010672",
+    "firebase_url": "https://showhiew.firebaseio.com",
+    "project_id": "showhiew",
+    "storage_bucket": "showhiew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818685010672:android:d4011cbef2fb7a07",
+        "android_client_info": {
+          "package_name": "test.shobhiew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818685010672-j75kb1h11b01ou0ptib0vvqcjccmfl8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.shobhiew",
+            "certificate_hash": "77f1e44c4aa0a01aeb4ad862aac984b1f413ffa4"
+          }
+        },
+        {
+          "client_id": "818685010672-sp9k7n4s8lkapttbcbjapjoq4hausjjj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI7BI81CXWkBpAchuxlN4Nho5h51L1s0I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818685010672-sp9k7n4s8lkapttbcbjapjoq4hausjjj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

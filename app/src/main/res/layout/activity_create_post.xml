@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostHiew.CreatePost">
+    <android.support.v7.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colormian"
+        android:id="@+id/toolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:title="Add Product" />
+    <ScrollView
+        android:padding="10dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/Name_Product"
+                    android:hint="@string/nameproduct"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"
+                    android:background="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLength="120"/>
+                <View
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.5dp"/>
+                <EditText
+                    android:id="@+id/Detail_Product"
+                    android:hint="@string/detailproduct"
+                    android:background="@android:color/white"
+                    android:padding="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/liner_type"
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="20sp"
+                        android:text="@string/Type"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="5dp"/>
+                    <TextView
+                        android:id="@+id/text_type"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:text="@string/SubType"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.5dp"/>
+                <LinearLayout
+                    android:id="@+id/liner_brand"
+                    android:padding="10dp"
+                    android:background="@android:color/white"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="20sp"
+                        android:text="@string/Brand"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/text_brand"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:text="@string/SubBrand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/add_location"
+                android:padding="10dp"
+                android:text="@string/addLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:textStyle="bold"
+                android:textColor="@color/blue"/>
+
+            <LinearLayout
+                android:background="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+             <LinearLayout
+                 android:padding="10dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textSize="16sp"
+                    android:text="@string/TimeStartPro"
+                    android:textColor="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                 <View
+                     android:layout_weight="1"
+                     android:layout_width="0dp"
+                     android:layout_height="5dp"/>
+                 <TextView
+                     android:id="@+id/start_date_text_pro"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="15sp"
+                     android:textColor="@android:color/darker_gray"
+                     android:text="@string/selectdate"/>
+             </LinearLayout>
+                <View
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.5dp"/>
+                <LinearLayout
+                    android:padding="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textSize="16sp"
+                        android:text="@string/TimeEndPro"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="5dp"/>
+                    <TextView
+                        android:id="@+id/end_date_text_pro"
+                        android:text="@string/selectdate"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="15sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/btn_create_post"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:text="Post"
+                android:background="@color/colormian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

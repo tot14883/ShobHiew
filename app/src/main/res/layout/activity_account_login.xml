@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Account.AccountLogin">
+        <FrameLayout
+            android:background="@android:color/white"
+            android:id="@+id/profile_bg_user"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="top"
+                android:background="@android:color/transparent"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/setting"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_settings_black_24dp"
+                    android:src="@android:color/transparent"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/cart_me"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ic_shopping_cart_black_24dp"
+                    android:src="@android:color/transparent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="13dp">
+                <ImageButton
+                    android:id="@+id/btn_profile_image"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/profile"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <TextView
+                    android:id="@+id/text_name_user"
+                    android:layout_gravity="bottom"
+                    android:layout_marginLeft="10dp"
+                    android:text="Name Users"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+           </LinearLayout>
+        </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_post_product"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttton_click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Post"
+        android:padding="10dp"
+        android:gravity="center|left"
+        />
+    <View
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+       <Button
+           android:id="@+id/btn_signout"
+           android:background="@drawable/buttton_click"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/Signout"
+           android:padding="10dp"
+           android:gravity="center|left"
+           />
+
+</LinearLayout>

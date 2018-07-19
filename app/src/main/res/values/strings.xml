@@ -1,0 +1,413 @@
+<resources>
+    <string name="facebook_app_id">596264624069763</string>
+    <string name="fb_login_protocol_scheme">fb596264624069763</string>
+
+    <string name="app_name">ShobHiew</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_favorite">Like</string>
+    <string name="title_notifications">Notification</string>
+    <string name="title_account">Account</string>
+    <string name="Brand_Product">Suggest Brand</string>
+    <string name="title_activity_main_login">MainLogin</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="SignIn">SignIn</string>
+    <string name="SignUp">SignUp</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="CreateAccount">Create Accout</string>
+    <string name="Forget">Forget Account</string>
+    <string name="Signout">SignOut</string>
+    <string name="Post">Post-Hiew</string>
+    <string name="deposit">Deposit-Hiew</string>
+    <string name="nameproduct">Name Product</string>
+    <string name="detailproduct">Detail Product</string>
+    <string name="Brand">Brand</string>
+    <string name="Type">Type</string>
+    <string name="SubBrand">Select Brand/Store</string>
+    <string name="SubType">Select Type</string>
+    <string-array name="type_product">
+        <item>Shoes</item>
+        <item>Bag</item>
+        <item>Cosmetics</item>
+        <item>Supplementary food</item>
+        <item>Accessory</item>
+        <item>Candy/Drinks</item>
+        <item>Perfume</item>
+        <item>Clothes</item>
+        <item>Kids/Toy</item>
+        <item>Stationary</item>
+        <item>Book/Fiction</item>
+        <item>Sport</item>
+        <item>Computer</item>
+        <item>Electronics</item>
+        <item>Camera</item>
+        <item>other</item>
+    </string-array>
+    <string name="alertType">You need select Type</string>
+    <string-array name="Shoes">
+        <item>Converse</item>\
+        <item>Nike</item>
+        <item>Adidas</item>
+        <item>New balance</item>
+        <item>Onitsuka tiger</item>
+        <item>Keds</item>
+        <item>Reebok</item>
+        <item>Lacoste</item>
+        <item>Puma</item>
+        <item>Vans</item>
+        <item>Skechers</item>
+        <item>Asics</item>
+        <item>Keen</item>
+        <item>Crocs</item>
+        <item>Columsbia</item>
+        <item>Ecco</item>
+        <item>Timberland</item>
+        <item>Bata</item>
+        <item>Kito</item>
+        <item>Heavy</item>
+        <item>IQ shoes</item>
+        <item>Kerdas</item>
+        <item>Bufalo</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="bag">
+        <item>Charles &amp; ampKieth</item>
+        <item>LYN</item>
+        <item>Cath Kidston</item>
+        <item>ZARA</item>
+        <item>LongChamp</item>
+        <item>Kate Spade</item>
+        <item>Coach</item>
+        <item>Kloset abd Etcetera</item>
+        <item>Naraya</item>
+        <item>Kamilaint</item>
+        <item>JACOB</item>
+        <item>Gigracia</item>
+        <item>Cove</item>
+        <item>Polotravel</item>
+        <item>BP World</item>
+        <item>Kipling</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="Cosmetic">
+        <item>L OREAL</item>
+        <item>Avon</item>
+        <item>Lancome</item>
+        <item>Clinique</item>
+        <item>M.A.C</item>
+        <item>OLAY</item>
+        <item>Oriflame</item>
+        <item>UrbanDecay</item>
+        <item>Revlon</item>
+        <item>Maybelline</item>
+        <item>Durex</item>
+        <item>Nivea</item>
+        <item>Kate tokyo</item>
+        <item>Mistine</item>
+        <item>Certainty</item>
+        <item>Faris</item>
+        <item>Dove</item>
+        <item>Vistra</item>
+        <item>Pantene</item>
+        <item>Lesasha</item>
+        <item>Snail White</item>
+        <item>Head &amp; Shoulders</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="supplementary">
+        <item>other</item>
+    </string-array>
+    <string-array name="Accessory">
+        <item>Kelvin and Fiona</item>
+        <item>LSW Gold</item>
+        <item>AURORA</item>
+        <item>Gemondo</item>
+        <item>Touch of silver</item>
+        <item>Bejewel</item>
+        <item>Gucci</item>
+        <item>Casio</item>
+        <item>Fossil</item>
+        <item>Citizen</item>
+        <item>Seiko</item>
+        <item>Omega</item>
+        <item>Kiss me doll</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="Perfume">
+        <item>Victoria's Secret</item>
+        <item>Tutti Dolci</item>
+        <item>YVES rocher</item>
+        <item>Nivea</item>
+        <item>Rexona</item>
+        <item>Cute Press</item>
+        <item>Mistine</item>
+        <item>Lovillea</item>
+        <item>12plus</item>
+        <item>Body Series</item>
+        <item>Bath &amp; BodyWorks</item>
+        <item>Beauty Cottage</item>
+        <item>Britney Cottage</item>
+        <item>BurBerry</item>
+        <item>Bvlgaro</item>
+        <item>Calvin Klein</item>
+        <item>Chloe</item>
+        <item>Clinique</item>
+        <item>Devidoff</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="Clothes">
+        <item>ZARA</item>
+        <item>TopShop</item>
+        <item>Mango</item>
+        <item>H&amp;M</item>
+        <item>Pull&amp;Bear</item>
+        <item>Bershka</item>
+        <item>GAP</item>
+        <item>Forever21</item>
+        <item>Brandy Melville</item>
+        <item>Uniqlo</item>
+        <item>BodyGlove</item>
+        <item>AIIZ</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="Toy">
+        <item>Disney</item>
+        <item>Mini Mono</item>
+        <item>Lego</item>
+        <item>MamyPoko</item>
+        <item>BabyLove</item>
+        <item>Kodomo</item>
+        <item>Pomo</item>
+        <item>Babito</item>
+        <item>Arson</item>
+        <item>Enfagrow</item>
+        <item>Natur</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="stationary">
+        <item>other</item>
+    </string-array>
+    <string-array name="Candy">
+        <item>other</item>
+    </string-array>
+    <string-array name="Book">
+        <item>other</item>
+    </string-array>
+    <string-array name="sport">
+        <item>360 Fitness</item>
+        <item>Grand Sport</item>
+        <item>Warrix</item>
+        <item>InterBike</item>
+        <item>The Cycling Zone</item>
+        <item>Thailand OutDoor</item>
+        <item>SportClub</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="Computer">
+        <item>IT City</item>
+        <item>HP</item>
+        <item>JIB</item>
+        <item>Asus</item>
+        <item>Advice</item>
+        <item>Acer</item>
+        <item>Banana</item>
+        <item>LG</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="Camera">
+        <item>SanDisk</item>
+        <item>ThiEye</item>
+        <item>Nikon</item>
+        <item>Fuji</item>
+        <item>Olympus</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="electronic">
+        <item>IT City</item>
+        <item>HP</item>
+        <item>JIB</item>
+        <item>Asus</item>
+        <item>Advice</item>
+        <item>Acer</item>
+        <item>Banana</item>
+        <item>LG</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string name="SuggestBrand">
+        Suggest Brand
+    </string>
+    <string name="TimeStartPro">Start Promotion</string>
+    <string name="TimeEndPro">End Promotion</string>
+    <string name="selectdate">dd/MM/yyyy</string>
+    <string name="setting_languages">languages</string>
+    <string name="Search">search brand/store</string>
+    <string-array name="totalBrand">
+        <item>Converse</item>
+        <item>Nike</item>
+        <item>Adidas</item>
+        <item>New balance</item>
+        <item>Onitsuka tiger</item>
+        <item>Keds</item>
+        <item>Reebok</item>
+        <item>Lacoste</item>
+        <item>Puma</item>
+        <item>Vans</item>
+        <item>Skechers</item>
+        <item>Asics</item>
+        <item>Keen</item>
+        <item>Crocs</item>
+        <item>Columsbia</item>
+        <item>Ecco</item>
+        <item>Timberland</item>
+        <item>Bata</item>
+        <item>Kito</item>
+        <item>Heavy</item>
+        <item>IQ shoes</item>
+        <item>Kerdas</item>
+        <item>Bufalo</item>
+        <item>Charles &amp; ampKieth</item>
+        <item>LYN</item>
+        <item>Cath Kidston</item>
+        <item>ZARA</item>
+        <item>LongChamp</item>
+        <item>Kate Spade</item>
+        <item>Coach</item>
+        <item>Kloset abd Etcetera</item>
+        <item>Naraya</item>
+        <item>Kamilaint</item>
+        <item>JACOB</item>
+        <item>Gigracia</item>
+        <item>Cove</item>
+        <item>Polotravel</item>
+        <item>BP World</item>
+        <item>Kipling</item>
+        <item>L OREAL</item>
+        <item>Avon</item>
+        <item>Lancome</item>
+        <item>Clinique</item>
+        <item>M.A.C</item>
+        <item>OLAY</item>
+        <item>Oriflame</item>
+        <item>UrbanDecay</item>
+        <item>Revlon</item>
+        <item>Maybelline</item>
+        <item>Durex</item>
+        <item>Nivea</item>
+        <item>Kate tokyo</item>
+        <item>Mistine</item>
+        <item>Certainty</item>
+        <item>Faris</item>
+        <item>Dove</item>
+        <item>Vistra</item>
+        <item>Pantene</item>
+        <item>Lesasha</item>
+        <item>Snail White</item>
+        <item>Head &amp; Shoulders</item>
+        <item>Kelvin and Fiona</item>
+        <item>LSW Gold</item>
+        <item>AURORA</item>
+        <item>Gemondo</item>
+        <item>Touch of silver</item>
+        <item>Bejewel</item>
+        <item>Gucci</item>
+        <item>Casio</item>
+        <item>Fossil</item>
+        <item>Citizen</item>
+        <item>Seiko</item>
+        <item>Omega</item>
+        <item>Kiss me doll</item>
+        <item>Victoria's Secret</item>
+        <item>Tutti Dolci</item>
+        <item>YVES rocher</item>
+        <item>Nivea</item>
+        <item>Rexona</item>
+        <item>Cute Press</item>
+        <item>Mistine</item>
+        <item>Lovillea</item>
+        <item>12plus</item>
+        <item>Body Series</item>
+        <item>Bath &amp; BodyWorks</item>
+        <item>Beauty Cottage</item>
+        <item>Britney Cottage</item>
+        <item>BurBerry</item>
+        <item>Bvlgaro</item>
+        <item>Calvin Klein</item>
+        <item>Chloe</item>
+        <item>Clinique</item>
+        <item>Devidoff</item>
+        <item>ZARA</item>
+        <item>TopShop</item>
+        <item>Mango</item>
+        <item>H&amp;M</item>
+        <item>Pull&amp;Bear</item>
+        <item>Bershka</item>
+        <item>GAP</item>
+        <item>Forever21</item>
+        <item>Brandy Melville</item>
+        <item>Uniqlo</item>
+        <item>BodyGlove</item>
+        <item>AIIZ</item>
+        <item>Disney</item>
+        <item>Mini Mono</item>
+        <item>Lego</item>
+        <item>MamyPoko</item>
+        <item>BabyLove</item>
+        <item>Kodomo</item>
+        <item>Pomo</item>
+        <item>Babito</item>
+        <item>Arson</item>
+        <item>Enfagrow</item>
+        <item>Natur</item>
+        <item>360 Fitness</item>
+        <item>Grand Sport</item>
+        <item>Warrix</item>
+        <item>InterBike</item>
+        <item>The Cycling Zone</item>
+        <item>Thailand OutDoor</item>
+        <item>SportClub</item>
+        <item>IT City</item>
+        <item>HP</item>
+        <item>JIB</item>
+        <item>Asus</item>
+        <item>Advice</item>
+        <item>Acer</item>
+        <item>Banana</item>
+        <item>LG</item>
+        <item>SanDisk</item>
+        <item>ThiEye</item>
+        <item>Nikon</item>
+        <item>Fuji</item>
+        <item>Olympus</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="languages_select">
+        <item>Thai</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="languages">
+        <item>🇹🇭 Thai</item>
+        <item>🇬🇧 English</item>
+    </string-array>
+    <string name="category">Category</string>
+    <string name="shirt">Clothes</string>
+    <string name="shoes">Shoes</string>
+    <string name="Bag">Bag</string>
+    <string name="Cosmet">Cosmetics</string>
+    <string name="Sup">Supplementary\nFood</string>
+    <string name="Acc">Accessory</string>
+    <string name="Can">Candy&amp;Drinks</string>
+    <string name="Per">Perfume</string>
+    <string name="Kids">Kids&amp;Toy</string>
+    <string name="Stat">Stationary</string>
+    <string name="book">Book&amp;Fiction</string>
+    <string name="electro">Electronics</string>
+    <string name="Sport">Sport</string>
+    <string name="Com">Computer</string>
+    <string name="Came">Camera</string>
+    <string name="other">other</string>
+    <string name="addLocation">+Add Location  </string>
+</resources>

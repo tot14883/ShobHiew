@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShobHiew</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">หน้าแรก</string>
+    <string name="title_favorite">ถูกใจ</string>
+    <string name="title_notifications">แจ้งเตือน</string>
+    <string name="title_account">บัชชี</string>
+    <string name="Brand_Product">แนะนำแบนด์</string>
+    <string name="SignIn">SignIn</string>
+    <string name="SignUp">SignUp</string>
+    <string name="CreateAccount">สร้างบัญชี</string>
+    <string name="Forget">ลืมรหัส</string>
+    <string name="Signout">ออกจากระบบ</string>
+    <string name="Post">โพสรับหิ้ว</string>
+    <string name="deposit">ฝากหิ้ว</string>
+    <string name="Type">ประเภทสินค้า</string>
+    <string name="nameproduct">ชื่อสินค้า</string>
+    <string name="detailproduct">รายละเอียดสินค้า</string>
+    <string name="Brand">แบนด์/ยี่ห้อ/ร้านค้า</string>
+    <string-array name="type_product">
+        <item>รองเท้า</item>
+        <item>กระเป๋า</item>
+        <item>เครื่องสำอาง</item>
+        <item>อาหารเสริม</item>
+        <item>เครื่องประดับ</item>
+        <item>ขนมและเครื่องดื่ม</item>
+        <item>น้ำหอม</item>
+        <item>เสื้อผ้า</item>
+        <item>ของเล่นและเด็ก</item>
+        <item>เครื่องเขียน</item>
+        <item>หนังสือ/นิยาย</item>
+        <item>กีฬา</item>
+        <item>คอมพิวเตอร์</item>
+        <item>เครื่องใช้ไฟฟ้า</item>
+        <item>กล้อง</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string name="alertType">คุณต้องเลือกชนิดสินค้าก่อน</string>
+    <string-array name="Shoes">
+        <item>Converse</item>\
+        <item>Nike</item>
+        <item>Adidas</item>
+        <item>New balance</item>
+        <item>Onitsuka tiger</item>
+        <item>Keds</item>
+        <item>Reebok</item>
+        <item>Lacoste</item>
+        <item>Puma</item>
+        <item>Vans</item>
+        <item>Skechers</item>
+        <item>Asics</item>
+        <item>Keen</item>
+        <item>Crocs</item>
+        <item>Columsbia</item>
+        <item>Ecco</item>
+        <item>Timberland</item>
+        <item>Bata</item>
+        <item>Kito</item>
+        <item>Heavy</item>
+        <item>IQ shoes</item>
+        <item>Kerdas</item>
+        <item>Bufalo</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="bag">
+        <item>Charles &amp; ampKieth</item>
+        <item>LYN</item>
+        <item>Cath Kidston</item>
+        <item>ZARA</item>
+        <item>LongChamp</item>
+        <item>Kate Spade</item>
+        <item>Coach</item>
+        <item>Kloset abd Etcetera</item>
+        <item>Naraya</item>
+        <item>Kamilaint</item>
+        <item>JACOB</item>
+        <item>Gigracia</item>
+        <item>Cove</item>
+        <item>Polotravel</item>
+        <item>BP World</item>
+        <item>Kipling</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Cosmetic">
+        <item>L OREAL</item>
+        <item>Avon</item>
+        <item>Lancome</item>
+        <item>Clinique</item>
+        <item>M.A.C</item>
+        <item>OLAY</item>
+        <item>Oriflame</item>
+        <item>UrbanDecay</item>
+        <item>Revlon</item>
+        <item>Maybelline</item>
+        <item>Durex</item>
+        <item>Nivea</item>
+        <item>Kate tokyo</item>
+        <item>Mistine</item>
+        <item>Certainty</item>
+        <item>Faris</item>
+        <item>Dove</item>
+        <item>Vistra</item>
+        <item>Pantene</item>
+        <item>Lesasha</item>
+        <item>Snail White</item>
+        <item>Head &amp; Shoulders</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Accessory">
+        <item>Kelvin and Fiona</item>
+        <item>LSW Gold</item>
+        <item>AURORA</item>
+        <item>Gemondo</item>
+        <item>Touch of silver</item>
+        <item>Bejewel</item>
+        <item>Gucci</item>
+        <item>Casio</item>
+        <item>Fossil</item>
+        <item>Citizen</item>
+        <item>Seiko</item>
+        <item>Omega</item>
+        <item>Kiss me doll</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Perfume">
+        <item>Victoria's Secret</item>
+        <item>Tutti Dolci</item>
+        <item>YVES rocher</item>
+        <item>Nivea</item>
+        <item>Rexona</item>
+        <item>Cute Press</item>
+        <item>Mistine</item>
+        <item>Lovillea</item>
+        <item>12plus</item>
+        <item>Body Series</item>
+        <item>Bath &amp; BodyWorks</item>
+        <item>Beauty Cottage</item>
+        <item>Britney Cottage</item>
+        <item>BurBerry</item>
+        <item>Bvlgaro</item>
+        <item>Calvin Klein</item>
+        <item>Chloe</item>
+        <item>Clinique</item>
+        <item>Devidoff</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Clothes">
+        <item>ZARA</item>
+        <item>TopShop</item>
+        <item>Mango</item>
+        <item>H&amp;M</item>
+        <item>Pull&amp;Bear</item>
+        <item>Bershka</item>
+        <item>GAP</item>
+        <item>Forever21</item>
+        <item>Brandy Melville</item>
+        <item>Uniqlo</item>
+        <item>BodyGlove</item>
+        <item>AIIZ</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Toy">
+    <item>Disney</item>
+    <item>Mini Mono</item>
+    <item>Lego</item>
+    <item>MamyPoko</item>
+    <item>BabyLove</item>
+    <item>Kodomo</item>
+    <item>Pomo</item>
+    <item>Babito</item>
+    <item>Arson</item>
+    <item>Enfagrow</item>
+    <item>Natur</item>
+    <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="stationary">
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Candy">
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Book">
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="sport">
+        <item>360 Fitness</item>
+        <item>Grand Sport</item>
+        <item>Warrix</item>
+        <item>InterBike</item>
+        <item>The Cycling Zone</item>
+        <item>Thailand OutDoor</item>
+        <item>SportClub</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Computer">
+        <item>IT City</item>
+        <item>HP</item>
+        <item>JIB</item>
+        <item>Asus</item>
+        <item>Advice</item>
+        <item>Acer</item>
+        <item>Banana</item>
+        <item>LG</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="electronic">
+        <item>IT City</item>
+        <item>HP</item>
+        <item>JIB</item>
+        <item>Asus</item>
+        <item>Advice</item>
+        <item>Acer</item>
+        <item>Banana</item>
+        <item>LG</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string-array name="Camera">
+        <item>SanDisk</item>
+        <item>ThiEye</item>
+        <item>Nikon</item>
+        <item>Fuji</item>
+        <item>Olympus</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string name="SuggestBrand">
+        แนะนำแบนด์สินค้า
+    </string>
+    <string-array name="totalBrand">
+        <item>Converse</item>
+        <item>Nike</item>
+        <item>Adidas</item>
+        <item>New balance</item>
+        <item>Onitsuka tiger</item>
+        <item>Keds</item>
+        <item>Reebok</item>
+        <item>Lacoste</item>
+        <item>Puma</item>
+        <item>Vans</item>
+        <item>Skechers</item>
+        <item>Asics</item>
+        <item>Keen</item>
+        <item>Crocs</item>
+        <item>Columsbia</item>
+        <item>Ecco</item>
+        <item>Timberland</item>
+        <item>Bata</item>
+        <item>Kito</item>
+        <item>Heavy</item>
+        <item>IQ shoes</item>
+        <item>Kerdas</item>
+        <item>Bufalo</item>
+        <item>Charles &amp; ampKieth</item>
+        <item>LYN</item>
+        <item>Cath Kidston</item>
+        <item>ZARA</item>
+        <item>LongChamp</item>
+        <item>Kate Spade</item>
+        <item>Coach</item>
+        <item>Kloset abd Etcetera</item>
+        <item>Naraya</item>
+        <item>Kamilaint</item>
+        <item>JACOB</item>
+        <item>Gigracia</item>
+        <item>Cove</item>
+        <item>Polotravel</item>
+        <item>BP World</item>
+        <item>Kipling</item>
+        <item>L OREAL</item>
+        <item>Avon</item>
+        <item>Lancome</item>
+        <item>Clinique</item>
+        <item>M.A.C</item>
+        <item>OLAY</item>
+        <item>Oriflame</item>
+        <item>UrbanDecay</item>
+        <item>Revlon</item>
+        <item>Maybelline</item>
+        <item>Durex</item>
+        <item>Nivea</item>
+        <item>Kate tokyo</item>
+        <item>Mistine</item>
+        <item>Certainty</item>
+        <item>Faris</item>
+        <item>Dove</item>
+        <item>Vistra</item>
+        <item>Pantene</item>
+        <item>Lesasha</item>
+        <item>Snail White</item>
+        <item>Head &amp; Shoulders</item>
+        <item>Kelvin and Fiona</item>
+        <item>LSW Gold</item>
+        <item>AURORA</item>
+        <item>Gemondo</item>
+        <item>Touch of silver</item>
+        <item>Bejewel</item>
+        <item>Gucci</item>
+        <item>Casio</item>
+        <item>Fossil</item>
+        <item>Citizen</item>
+        <item>Seiko</item>
+        <item>Omega</item>
+        <item>Kiss me doll</item>
+        <item>Victoria's Secret</item>
+        <item>Tutti Dolci</item>
+        <item>YVES rocher</item>
+        <item>Nivea</item>
+        <item>Rexona</item>
+        <item>Cute Press</item>
+        <item>Mistine</item>
+        <item>Lovillea</item>
+        <item>12plus</item>
+        <item>Body Series</item>
+        <item>Bath &amp; BodyWorks</item>
+        <item>Beauty Cottage</item>
+        <item>Britney Cottage</item>
+        <item>BurBerry</item>
+        <item>Bvlgaro</item>
+        <item>Calvin Klein</item>
+        <item>Chloe</item>
+        <item>Clinique</item>
+        <item>Devidoff</item>
+        <item>ZARA</item>
+        <item>TopShop</item>
+        <item>Mango</item>
+        <item>H&amp;M</item>
+        <item>Pull&amp;Bear</item>
+        <item>Bershka</item>
+        <item>GAP</item>
+        <item>Forever21</item>
+        <item>Brandy Melville</item>
+        <item>Uniqlo</item>
+        <item>BodyGlove</item>
+        <item>AIIZ</item>
+        <item>Disney</item>
+        <item>Mini Mono</item>
+        <item>Lego</item>
+        <item>MamyPoko</item>
+        <item>BabyLove</item>
+        <item>Kodomo</item>
+        <item>Pomo</item>
+        <item>Babito</item>
+        <item>Arson</item>
+        <item>Enfagrow</item>
+        <item>Natur</item>
+        <item>360 Fitness</item>
+        <item>Grand Sport</item>
+        <item>Warrix</item>
+        <item>InterBike</item>
+        <item>The Cycling Zone</item>
+        <item>Thailand OutDoor</item>
+        <item>SportClub</item>
+        <item>IT City</item>
+        <item>HP</item>
+        <item>JIB</item>
+        <item>Asus</item>
+        <item>Advice</item>
+        <item>Acer</item>
+        <item>Banana</item>
+        <item>LG</item>
+        <item>SanDisk</item>
+        <item>ThiEye</item>
+        <item>Nikon</item>
+        <item>Fuji</item>
+        <item>Olympus</item>
+        <item>อื่นๆ</item>
+    </string-array>
+    <string name="TimeStartPro">วันที่เริ่มโปรโมทชั่น</string>
+    <string name="TimeEndPro">วันที่สิ้นสุดโปรโมทชั่น</string>
+    <string name="selectdate">วว/ดด/ปปปป</string>
+    <string name="Search">ค้นหา แบนด์/สินค้า</string>
+    <string name="setting_languages">languages</string>
+    <string-array name="languages_select">
+        <item>Thai</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="languages">
+        <item>🇹🇭 Thai</item>
+        <item>🇬🇧 English</item>
+    </string-array>
+    <string name="category">หมวดหมู่</string>
+    <string name="shirt">เสื้อผ้า</string>
+    <string name="shoes">รองเท้า</string>
+    <string name="Bag">กระเป๋า</string>
+    <string name="Cosmet">เครื่องสำอาง</string>
+    <string name="Sup">อาหารเสริม</string>
+    <string name="Acc">เครื่องประดับ</string>
+    <string name="Can">ขนมและเครื่องดื่ม</string>
+    <string name="Per">น้ำหอม</string>
+    <string name="Kids">ของเล่นและเด็ก</string>
+    <string name="Stat">เครื่องเขียน</string>
+    <string name="book">หนังสือ/นิยาย</string>
+    <string name="Sport">กีฬา</string>
+    <string name="Com">คอมพิวเตอร์</string>
+    <string name="electro">เครื่องใช้ไฟฟ้า</string>
+    <string name="Came">กล้อง</string>
+    <string name="other">อื่นๆ</string>
+    <string name="addLocation">+เพิ่มสถานที่</string>
+</resources>
